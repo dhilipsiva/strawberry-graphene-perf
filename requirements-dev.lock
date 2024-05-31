@@ -27,6 +27,8 @@ docstring-to-markdown==0.15
     # via python-lsp-server
 executing==2.0.1
     # via stack-data
+faker==25.3.0
+    # via json-serde-exp
 graphene==3.3
     # via graphene-django
 graphene-django==3.2.1
@@ -70,12 +72,15 @@ pure-eval==0.2.2
     # via stack-data
 pygments==2.18.0
     # via ipython
+python-dateutil==2.9.0.post0
+    # via faker
 python-lsp-jsonrpc==1.1.2
     # via python-lsp-server
 python-lsp-server==1.11.0
 six==1.16.0
     # via asttokens
     # via promise
+    # via python-dateutil
 sqlparse==0.5.0
     # via django
 stack-data==0.6.3

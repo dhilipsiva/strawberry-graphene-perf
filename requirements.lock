@@ -15,6 +15,8 @@ asgiref==3.8.1
 django==5.0.6
     # via graphene-django
     # via json-serde-exp
+faker==25.3.0
+    # via json-serde-exp
 graphene==3.3
     # via graphene-django
 graphene-django==3.2.1
@@ -28,8 +30,11 @@ graphql-relay==3.2.0
     # via graphene-django
 promise==2.3
     # via graphene-django
+python-dateutil==2.9.0.post0
+    # via faker
 six==1.16.0
     # via promise
+    # via python-dateutil
 sqlparse==0.5.0
     # via django
 text-unidecode==1.3
