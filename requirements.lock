@@ -32,6 +32,8 @@ promise==2.3
     # via graphene-django
 python-dateutil==2.9.0.post0
     # via faker
+pytz==2024.1
+    # via json-serde-exp
 six==1.16.0
     # via promise
     # via python-dateutil

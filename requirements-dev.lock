@@ -77,6 +77,8 @@ python-dateutil==2.9.0.post0
 python-lsp-jsonrpc==1.1.2
     # via python-lsp-server
 python-lsp-server==1.11.0
+pytz==2024.1
+    # via json-serde-exp
 six==1.16.0
     # via asttokens
     # via promise
