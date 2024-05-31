@@ -50,6 +50,8 @@ matplotlib-inline==0.1.7
     # via ipython
 mypy-extensions==1.0.0
     # via black
+orjson==3.10.3
+    # via json-serde-exp
 packaging==24.0
     # via black
 parso==0.8.4

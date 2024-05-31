@@ -48,7 +48,8 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
-    "django.middleware.gzip.GZipMiddleware",
+    # "django.middleware.gzip.GZipMiddleware",
+    # "json_serde_exp.graphene_api.ORJSONMiddleware",
 ]
 
 ROOT_URLCONF = "json_serde_exp.urls"
@@ -124,4 +125,9 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-GRAPHENE = {"SCHEMA": "json_serde_exp.graphene_api.schema"}
+GRAPHENE = {
+    # "MIDDLEWARE": (
+    #     "json_serde_exp.graphene_api.ORJSONMiddleware",
+    # ),
+    "SCHEMA": "json_serde_exp.graphene_api.schema",
+}
