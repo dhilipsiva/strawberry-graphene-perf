@@ -18,8 +18,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from graphene_django.views import GraphQLView
+from json_serde_exp.strawberry_api import AsyncGraphQLView, schema
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("graphene_api", GraphQLView.as_view(graphiql=True)),
+    path("strawberry_api", AsyncGraphQLView.as_view(schema=schema)),
 ]

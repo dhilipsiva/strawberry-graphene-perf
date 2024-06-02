@@ -11,6 +11,8 @@ dependencies = [
     "faker>=25.3.0",
     "pytz>=2024.1",
     "orjson>=3.10.3",
+    "strawberry-graphql>=0.233.1",
+    "strawberry-graphql-django>=0.42.0",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"

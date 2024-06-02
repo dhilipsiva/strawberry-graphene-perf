@@ -12,9 +12,11 @@ aniso8601==9.0.1
     # via graphene
 asgiref==3.8.1
     # via django
+    # via strawberry-graphql-django
 django==5.0.6
     # via graphene-django
     # via json-serde-exp
+    # via strawberry-graphql-django
 faker==25.3.0
     # via json-serde-exp
 graphene==3.3
@@ -25,6 +27,7 @@ graphql-core==3.2.3
     # via graphene
     # via graphene-django
     # via graphql-relay
+    # via strawberry-graphql
 graphql-relay==3.2.0
     # via graphene
     # via graphene-django
@@ -34,6 +37,7 @@ promise==2.3
     # via graphene-django
 python-dateutil==2.9.0.post0
     # via faker
+    # via strawberry-graphql
 pytz==2024.1
     # via json-serde-exp
 six==1.16.0
@@ -41,5 +45,12 @@ six==1.16.0
     # via python-dateutil
 sqlparse==0.5.0
     # via django
+strawberry-graphql==0.233.1
+    # via json-serde-exp
+    # via strawberry-graphql-django
+strawberry-graphql-django==0.42.0
+    # via json-serde-exp
 text-unidecode==1.3
     # via graphene-django
+typing-extensions==4.12.0
+    # via strawberry-graphql

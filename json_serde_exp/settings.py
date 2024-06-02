@@ -48,7 +48,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
-    # "django.middleware.gzip.GZipMiddleware",
+    "django.middleware.gzip.GZipMiddleware",
     # "json_serde_exp.graphene_api.ORJSONMiddleware",
 ]
 
